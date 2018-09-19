@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  status: 1
+  duration: 1
+  scheduled_to: 2018-09-19
+  price: 9.99
+  lat: MyString
+  lng: MyString
+  started_at: 2018-09-19 04:13:49
+  ended_at: 2018-09-19 04:13:49
+  pets: one
+
+two:
+  status: 1
+  duration: 1
+  scheduled_to: 2018-09-19
+  price: 9.99
+  lat: MyString
+  lng: MyString
+  started_at: 2018-09-19 04:13:49
+  ended_at: 2018-09-19 04:13:49
+  pets: two

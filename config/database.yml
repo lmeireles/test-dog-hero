@@ -1,0 +1,19 @@
+
+default: &default
+  adapter: mysql2
+  username: root
+  password: root
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  timeout: 5000
+
+development:
+  <<: *default
+  database: dev_dog_hero
+
+test:
+  <<: *default
+  database: test_dog_hero
+
+production:
+  <<: *default
+  database: prod_dog_hero
