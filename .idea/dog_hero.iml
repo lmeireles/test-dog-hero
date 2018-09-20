@@ -31,28 +31,41 @@
     <orderEntry type="library" scope="PROVIDED" name="actionview (v5.2.1, Remote: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activejob (v5.2.1, Remote: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activemodel (v5.2.1, Remote: ruby-2.5.1-p57) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="activemodel-serializers-xml (v1.0.2, Remote: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activerecord (v5.2.1, Remote: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activestorage (v5.2.1, Remote: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v5.2.1, Remote: ruby-2.5.1-p57) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="api-pagination (v4.8.1, Remote: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="arel (v9.0.0, Remote: ruby-2.5.1-p57) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bootsnap (v1.3.2, Remote: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.3, Remote: ruby-2.5.1-p57) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.16.4, Remote: ruby-2.5.1-p57) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.16.3, Remote: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="byebug (v10.0.2, Remote: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.0.5, Remote: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.4, Remote: ruby-2.5.1-p57) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="draper (v3.0.1, Remote: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubi (v1.7.1, Remote: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ffi (v1.9.25, Remote: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v0.4.1, Remote: ruby-2.5.1-p57) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="has_scope (v0.7.2, Remote: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v1.1.0, Remote: ruby-2.5.1-p57) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.7.0, Remote: ruby-2.5.1-p57) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="kaminari (v1.1.1, Remote: ruby-2.5.1-p57) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="kaminari-actionview (v1.1.1, Remote: ruby-2.5.1-p57) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="kaminari-activerecord (v1.1.1, Remote: ruby-2.5.1-p57) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="kaminari-core (v1.1.1, Remote: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="listen (v3.1.5, Remote: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="loofah (v2.2.2, Remote: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.7.0, Remote: ruby-2.5.1-p57) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="marcel (v0.3.3, Remote: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="method_source (v0.9.0, Remote: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mimemagic (v0.3.2, Remote: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mini_mime (v1.0.1, Remote: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mini_portile2 (v2.3.0, Remote: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="minitest (v5.11.3, Remote: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="msgpack (v1.2.4, Remote: ruby-2.5.1-p57) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.13.1, Remote: ruby-2.5.1-p57) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mysql2 (v0.5.2, Remote: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nio4r (v2.3.1, Remote: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.8.4, Remote: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="puma (v3.12.0, Remote: ruby-2.5.1-p57) [gem]" level="application" />
@@ -65,6 +78,7 @@
     <orderEntry type="library" scope="PROVIDED" name="rake (v12.3.1, Remote: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rb-fsevent (v0.10.3, Remote: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rb-inotify (v0.9.10, Remote: ruby-2.5.1-p57) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="request_store (v1.4.1, Remote: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ruby_dep (v1.5.0, Remote: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spring (v2.0.2, Remote: ruby-2.5.1-p57) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spring-watcher-listen (v2.0.1, Remote: ruby-2.5.1-p57) [gem]" level="application" />

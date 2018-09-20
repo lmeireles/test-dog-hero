@@ -1,24 +1,57 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The project is using ruby 2.5.1 
 
-Things you may want to cover:
+Before start make sure the machine has a mysql installed and the service is running.
 
-* Ruby version
+To run the application first execute, from the projects's root folder:
 
-* System dependencies
+``bundle install``
 
-* Configuration
+``rails db:create``
 
-* Database creation
+``rails db:migrate``
 
-* Database initialization
+Execute the seed to get some Pets (5)
 
-* How to run the test suite
+``rails db:seed``
 
-* Services (job queues, cache servers, search engines, etc.)
+Now just start the server
 
-* Deployment instructions
+``rails s``
 
-* ...
+## Some examples
+
+- Creating a walk
+````
+POST to /dog_walkings
+
+with json body:
+{
+	"duration": 60,
+	"lat": "24.00000000",
+	"lng": "21.23333300",
+	"scheduled_to": "2018-05-29",
+	"pet_ids": [1, 3, 4] 
+}
+````
+
+- Listing all walks filtering just the next ones and using the page method to get the second page
+````
+GET to /dog_walkings?only_next=true&page=2
+````
+
+- Starting the walk with id 3
+````
+POST to /dog_walkings/start_walk/3
+````
+
+- Finishing the walk with id 3
+````
+POST to /dog_walkings/finish_walk/3
+````
+
+- Show the walk with id 3
+````
+GET to /dog_walkings/3
+````

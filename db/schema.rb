@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(version: 2018_09_19_054502) do
 
-  create_table "dog_walkings", options: "ENGINE=InnoDB DEFAULT CHARSET=latin1", force: :cascade do |t|
+  create_table "dog_walkings", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.integer "status", default: 0
     t.integer "duration"
     t.date "scheduled_to"
@@ -25,13 +25,13 @@ ActiveRecord::Schema.define(version: 2018_09_19_054502) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "dog_walkings_pets", id: false, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1", force: :cascade do |t|
+  create_table "dog_walkings_pets", id: false, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.bigint "dog_walking_id", null: false
     t.bigint "pet_id", null: false
     t.index ["dog_walking_id", "pet_id"], name: "index_dog_walkings_pets_on_dog_walking_id_and_pet_id"
   end
 
-  create_table "pets", options: "ENGINE=InnoDB DEFAULT CHARSET=latin1", force: :cascade do |t|
+  create_table "pets", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

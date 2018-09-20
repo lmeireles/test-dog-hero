@@ -1,7 +1,8 @@
 class DogWalking < ApplicationRecord
   before_create :set_price
-
   has_and_belongs_to_many :pets
+
+  scope :only_next, -> {where("scheduled_to >= '#{Date.today}'")}
 
   enum status: [:scheduled, :ongoing, :finished]
   attr_accessor :validate_start_walk, :validate_finish_walk
