@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bec78af-d029-4f81-957b-bbb092c4adec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dog_hero.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dog_hero.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ruby-version" beforeDir="false" afterPath="$PROJECT_DIR$/.ruby-version" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/dog_walkings_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/dog_walkings_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/dog_walking.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/dog_walking.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/dog_walkings/_dog_walking.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/dog_walkings/_dog_walking.json.jbuilder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-    </list>
+    <list default="true" id="3bec78af-d029-4f81-957b-bbb092c4adec" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -93,14 +82,14 @@
         <counts>
           <entry key="Gemfile" value="40" />
           <entry key="jbuilder" value="43" />
-          <entry key="md" value="544" />
+          <entry key="md" value="605" />
           <entry key="rb" value="412" />
           <entry key="ruby-version" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="544" />
+          <entry key="Markdown" value="605" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Ruby" value="495" />
         </counts>
@@ -125,8 +114,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="487">
-                <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+              <first_editor relative-caret-position="483">
+                <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               </first_editor>
               <second_editor />
             </state>
@@ -352,12 +341,12 @@
       <workItem from="1537328029418" duration="5208000" />
       <workItem from="1537336176375" duration="288000" />
       <workItem from="1537336486921" duration="9619000" />
-      <workItem from="1537396191057" duration="6255000" />
+      <workItem from="1537396191057" duration="6512000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21370000" />
+    <option name="totallyTimeSpent" value="21627000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -529,8 +518,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="487">
-            <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+          <first_editor relative-caret-position="483">
+            <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           </first_editor>
           <second_editor />
         </state>
